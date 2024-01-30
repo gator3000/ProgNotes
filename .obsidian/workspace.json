@@ -21,14 +21,13 @@
             }
           },
           {
-            "id": "114fd1832bcc012f",
+            "id": "13d10ce3a75ddec5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Python/Installation.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               }
             }
@@ -176,11 +175,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "114fd1832bcc012f",
+  "active": "13d10ce3a75ddec5",
   "lastOpenFiles": [
-    "Python/Summary.md",
     "Python/Introduction.md",
     "Python/Installation.md",
+    "[.md",
+    "Python/Summary.md",
     "Introduction.md",
     "Table.md",
     "ProgNotes",
