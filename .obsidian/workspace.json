@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Table of Content.md",
+                "file": "Python/Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,8 +26,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Table of Content.md",
-                "mode": "preview",
+                "file": "Python/Introduction.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Table of Content.md",
+                "file": "Python/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Table of Content.md",
+                "file": "Python/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Table of Content.md"
+                "file": "Python/Introduction.md"
               }
             }
           }
@@ -177,7 +178,11 @@
   },
   "active": "114fd1832bcc012f",
   "lastOpenFiles": [
-    "Python/Table of Content.md",
+    "Python/Installation.md",
+    "Python/Summary.md",
+    "Python/Introduction.md",
+    "Introduction.md",
+    "Table.md",
     "ProgNotes",
     "Java",
     "JS",

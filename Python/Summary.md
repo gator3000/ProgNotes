@@ -1,9 +1,9 @@
-
+___
 # 0.  *Broach*
 
-### 0.1. Introduction
+### 0.1 [Introduction](Introduction)
 
-### 0.2 Installation
+### 0.2 [Installation](Installation)
 - ##### 0.2.1 Window
 - ##### 0.2.2 Linux
 - ##### 0.2.3 Mac / OS X
