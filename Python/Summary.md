@@ -9,9 +9,9 @@ ___
 - ##### 0.2.3 Mac / OS X
 
 
-# I. *Variables & calculations*
+# I. [*Variables & calculations*](Variables&calculs)
 
-### I.1 Classic variables
+### I.1 Classic variables and exits
 - ### I.1.0 Parenteshis
 	- ##### I.1.0.1 Print variable
 - ##### I.1.1 Declare a variable

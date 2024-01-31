@@ -6,7 +6,7 @@
       {
         "id": "8539dabe465d018d",
         "type": "tabs",
-        "dimension": 65.65557729941291,
+        "dimension": 56.262230919765166,
         "children": [
           {
             "id": "6ec5f51f24f1608d",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Installation.md",
+                "file": "Python/Variables&calculs.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "90e221c07a020c4b",
         "type": "tabs",
-        "dimension": 34.34442270058709,
+        "dimension": 43.737769080234834,
         "children": [
           {
             "id": "2f049c6018e1fcb4",
@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Installation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/Installation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,12 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13d10ce3a75ddec5",
+  "active": "2f049c6018e1fcb4",
   "lastOpenFiles": [
+    "Python/Variables&calculs.md",
+    "Python/Summary.md",
     "Python/Introduction.md",
     "Python/Installation.md",
+    "Untitled.md",
     "[.md",
-    "Python/Summary.md",
     "Introduction.md",
     "Table.md",
     "ProgNotes",
