@@ -6,7 +6,7 @@
       {
         "id": "8539dabe465d018d",
         "type": "tabs",
-        "dimension": 67.61252446183953,
+        "dimension": 63.54723707664884,
         "children": [
           {
             "id": "6ec5f51f24f1608d",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Variables&calculs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "90e221c07a020c4b",
         "type": "tabs",
-        "dimension": 32.38747553816047,
+        "dimension": 36.45276292335116,
         "children": [
           {
             "id": "2f049c6018e1fcb4",
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c161c29b9525f1fa",
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Variables&calculs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Variables&calculs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Summary.md"
+                "file": "Python/Variables&calculs.md"
               }
             }
           }
@@ -177,11 +177,11 @@
   },
   "active": "13d10ce3a75ddec5",
   "lastOpenFiles": [
-    "Python/TypesDeVariables.md",
+    "Python/Variables&calculs.md",
     "Python/Summary.md",
+    "Python/TypesDeVariables.md",
     "Python/Installation.md",
     "Python/Introduction.md",
-    "Python/Variables&calculs.md",
     "Untitled.md",
     "[.md",
     "Introduction.md",

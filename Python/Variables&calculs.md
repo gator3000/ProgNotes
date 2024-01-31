@@ -78,3 +78,74 @@ print(ma_variable)
 # Output : Hello world !
 ```
 Ici on définit `ma_variable` à un message et dans la deuxième ligne on récupère la valeur de `ma_variable` et on la donne à l'instruction `print()` qui l'affiche.
+
+### I.1.2 Les Opérateurs :
+
+Dans la vie les nombres on peut les additionner, multiplier... Et bien sur python, on peut aussi !
+1. L'addition : `+`
+2. La soustraction : `-`
+3. La multiplication : `*`
+4. La division : `/`
+5. La division entière : `//` (renvoie le quotient de la division)
+6. Le modulo : `%` (renvoie le reste de la division)
+
+```py
+3 + 6
+# Output : 9
+2 - 1
+# Output : 1
+5 * 2
+# Output : 10
+20 / 6
+# Output : 3.3333333333333335
+20 // 6
+# Output : 3
+20 // 6
+# Output : 2
+```
+
+> [!CAUTION]
+> Python n'est pas très précis quand il s'agit de chiffres à virgule
+
+On peut aussi faire nos opérations avec des variables :
+```py
+example_num = 5
+example_num2 = 6
+
+print(example_num * 2)
+# Output : 10
+
+print(example_num // 2)
+# Output : 2
+
+print(example_num2 + example_num)
+# Output : 11
+```
+
+> [!WARNING]
+> Attention : si tu demandes à python d'opérer avec des chaînes de caractères même si a l’intérieur il n'y a que des nombre, il ne se passera pas ce que tu espère. Exemple : 
+> ```py
+> error_num = "27"
+> error_num_2 = "3"
+> number = 2
+> print(error_num * number)
+> # Output : 2727
+> print(error_num + error_num_2)
+> # Output : 273
+> ```
+Toutes les autres configurations donneront des erreurs
+
+Pour des calculs composés il faut connaitre les priorités de calculs de python :
+1. Ce qui est à l’intérieur des parenthèses : `3 * (2 + 3)` donnera `15` et non `9`.
+2. Les multiplications et divisions (avec les modulo et divisons entières)
+3. Enfin les additions et soustractions.
+Le reste est exécuté dans l'ordre
+
+### Exercice 1 :
+Que donne ce programme ? 
+```py
+ma_variable = "50"
+ma_variable_2 = 2
+ma_variable_3 = "5"
+print(ma_variable + (ma_variable_2 / 0.5 * ma_variable_3))
+```
