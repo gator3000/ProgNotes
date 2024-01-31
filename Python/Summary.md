@@ -20,7 +20,7 @@ ___
 - ##### I.2.1 Operators
 - ##### I.2.2 Calculation priorities
 
-# II *Types of variables*
+# II [*Types of variables*](TypesDeVariables)
 
 ### II.1 Numbers
 - ##### II.1.1 Integers

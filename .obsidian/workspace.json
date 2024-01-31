@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Variables&calculs.md",
-                "mode": "source",
+                "file": "Python/Summary.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Variables&calculs.md",
+                "file": "Python/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Variables&calculs.md",
+                "file": "Python/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Variables&calculs.md"
+                "file": "Python/Summary.md"
               }
             }
           }
@@ -177,10 +177,11 @@
   },
   "active": "13d10ce3a75ddec5",
   "lastOpenFiles": [
-    "Python/Variables&calculs.md",
+    "Python/TypesDeVariables.md",
     "Python/Summary.md",
-    "Python/Introduction.md",
     "Python/Installation.md",
+    "Python/Introduction.md",
+    "Python/Variables&calculs.md",
     "Untitled.md",
     "[.md",
     "Introduction.md",
