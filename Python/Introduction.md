@@ -2,7 +2,7 @@
 ___
 
 > [!NOTE]
-> Presque toute cette introduction à été rédigée par l'auteur de ce [site](https://python.doctor/)
+> Presque toute cette introduction a été rédigée par l'auteur de ce [site](https://python.doctor/)
 
 
 Python est un langage de programmation. Il est l'un des langages de programmation les plus intéressants du moment. Facile à apprendre, python est souvent utilisé en exemple lors de l'apprentissage de la programmation. Vous trouverez sur ce [site](https://python.doctor/) des cours / tuto informatiques qui vous enseigneront les bases pour la compréhension de ce langage.
