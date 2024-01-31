@@ -12,7 +12,10 @@ Avant tout, tu dois savoir une chose : pour afficher quelque chose, il faut util
 ```py
 print(une_valeur)
 ```
-À la place de `une_valeur` tu écriras soit un nombre, soit une chaîne de caractères (string) soit une variable, on y reviendra.
+
+^ee7155
+
+À la place de `une_valeur` tu écriras soit un nombre, soit une chaîne de caractères (string) soit une variable, on y reviendra [[Variables&calculs#Utilisons là maintenant.]].
 > [!NOTE]
 > pour écrire un nombre à virgule flottante (décimal) on utilisera le point : 
 > ```py
@@ -56,9 +59,22 @@ En résumé :
 
 
 Maintenant qu'on a son nom, il nous faut une valeur.
-Il faut savoir que en python il n'y a pas besoin de spécifier le type de nos variables, seulement de leur affecter une valeur spécifié après le signe `=`. Exemple :
+Il faut savoir que en python il n'y a pas besoin de spécifier le type de nos variables, seulement de leur affecter une valeur spécifié après un signe `=`.
+Exemple :
 ```py
 ma_variable = "chaine de caractères"
 ma_variable_2 = 3 #int > entier
 ma_variable_3 = 2.069 # float > virgule flotante
 ```
+Ça y est ! Nous avons déclaré notre première variable.
+
+###### Utilisons là maintenant. 
+
+Pour afficher la valeur d'une variable on se réfère à [[#^ee7155]].
+Exemple :
+```py
+ma_variable = "Hello world !"
+print(ma_variable)
+# Output : Hello world !
+```
+Ici on définit `ma_variable` à un message et dans la deuxième ligne on récupère la valeur de `ma_variable` et on la donne à l'instruction `print()` qui l'affiche.
