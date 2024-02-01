@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/TypesDeVariables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/TypesDeVariables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/TypesDeVariables.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13d10ce3a75ddec5",
+  "active": "2f049c6018e1fcb4",
   "lastOpenFiles": [
     "Python/TypesDeVariables.md",
     "Python/Summary.md",
