@@ -41,8 +41,16 @@ print(mon_bool)
 > [!DEFINITION]
 > "Itérable" signifie qu'on va pouvoir les parcourir par itérations dans des [boucles](Boucles).
 
-On en à déjà beaucoup parlé de ces chaines de caractères qui se nomment `strings`. Les strings supportent deux opérateurs `*` et `+`. Tout nos types de variables peuvent être convertis en string :
+On en à déjà beaucoup parlé de ces chaines de caractères qui se nomment `strings`. Pour les définir il faut mettre des guillemets ou des apostrophes ou encore des triple guillemets (pour des chaines sur plusieurs lignes (sinon cela va provoquer une erreur)) Les strings supportent deux opérateurs `*` et `+`. Tout nos types de variables peuvent être convertis en string :
 ```py
+mon_str = """Hello
+World
+!"""
+print(mon_str)
+# Output : Hello
+# World
+# !
+
 print("hello " + "world " + "!")
 # Output : hello world !
 
@@ -53,22 +61,44 @@ print(str(2.3)*2)
 # Output : 2.32.3
 ```
 
-Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice.
+Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice mis entre `[]`. Elles sont définies avec des `[]` autours des valeurs et des virgules entre les items.
+> [!TIP]
+> On peut créer une liste vide avec `ma_liste = list()`. Cette syntaxe set préférable par rapport a deux crochets Selon la [PEP8](https://python.doctor/page-pep-8-bonnes-pratiques-coder-python-apprendre).
+
 ```py
+mon_test = [3, "Bonjour", 50.3] # On créer une liste avec 3 items
 ma_liste = [] # On créer une liste vide
 ma_liste.append(3) # On ajoute une valeur (3) à la liste
 ma_liste.append("Hello") # "
 ma_liste.append("World") # "
+
 print(ma_liste)
 # Output : [3, "Hello", "World"]
+
 mon_entier = ma_liste[0] + 3
 print(mon_entier)
 # Output : 6
+
 ma_chaine = ma_liste[2] + ma_liste[1]
 print(ma_chaine)
 # Output : WorldHello
 
-del ma_liste[0]
+del ma_liste[0]  # Supprime des items
 print(ma_liste)
 # Output : ["Hello", "World"]
+
+print(len(ma_liste)) # Affiche le nombre d'items dans la liste
+# Output : 2
+
+print(ma_liste + mon_test)
+# Output : [3, 'Bonjour', 50.3, "Hello", "World"]
+
+print(mon_test * 3)
+# Output : [3, 'Bonjour', 50.3, 3, 'Bonjour', 50.3, 3, 'Bonjour', 50.3]
 ```
+
+> [!IMPORTANT]
+> Vous avez surement remarqué mais `l'indice 0` correspond au premier item et `l'indice 1` correspond lui au deuxième item et non au premier.
+> De manière générale, en programmation on compte à partir de zéro et pas de 1.
+
+Les tuples sont comme des listes mais ils ne peuvent pas être modifiés. Il sont définis avec des `()` et une virgule entre chaque item pour les sépare

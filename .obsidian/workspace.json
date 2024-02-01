@@ -6,7 +6,7 @@
       {
         "id": "8539dabe465d018d",
         "type": "tabs",
-        "dimension": 63.54723707664884,
+        "dimension": 68.27094474153299,
         "children": [
           {
             "id": "6ec5f51f24f1608d",
@@ -38,7 +38,7 @@
       {
         "id": "90e221c07a020c4b",
         "type": "tabs",
-        "dimension": 36.45276292335116,
+        "dimension": 31.72905525846702,
         "children": [
           {
             "id": "2f049c6018e1fcb4",
@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/TypesDeVariables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/TypesDeVariables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/TypesDeVariables.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13d10ce3a75ddec5",
+  "active": "2f049c6018e1fcb4",
   "lastOpenFiles": [
-    "Python/Summary.md",
     "Python/TypesDeVariables.md",
+    "Python/Summary.md",
     "Python/Introduction.md",
     "Python/Conditions.md",
     "Python/Boucles.md",
