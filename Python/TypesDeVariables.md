@@ -131,3 +131,6 @@ my_set.add("Hello")  # On ajoute "Hello" a ce set
 print(my_set)
 # Output : {'Hey', 2.5, 3, 'Hello'}
 ```
+
+> [!CAUTION]
+> Erreurs != Terminal
