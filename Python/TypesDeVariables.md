@@ -101,4 +101,33 @@ print(mon_test * 3)
 > Vous avez surement remarqué mais `l'indice 0` correspond au premier item et `l'indice 1` correspond lui au deuxième item et non au premier.
 > De manière générale, en programmation on compte à partir de zéro et pas de 1.
 
-Les tuples sont comme des listes mais ils ne peuvent pas être modifiés. Il sont définis avec des `()` et une virgule entre chaque item pour les sépare
+Les tuples sont comme des listes mais ils ne peuvent pas être modifiés. Il sont définis avec des `()` et une virgule entre chaque item pour les séparer. Ils gardent leur ordre comme les listes puisque leur indice est basé sur leur position.
+```py
+mon_tuple = ("Hey", 3, True)
+print(mon_tuple[1])
+# Output : 3
+
+mon_tuple[0] = False
+# Output : TypeError: 'tuple' object does not support item assignment
+
+del mon_tuple[2]
+# Output : TypeError: 'tuple' object doesn't support item deletion
+
+mon_tuple.append(2.5)
+# Output : AttributeError: 'tuple' object has no attribute 'append'
+```
+
+Les sets sont des types assez pratiques qui se définissent avec des `{}` dont les items sont séparés avec des virgules. L'ordre des valeurs n'a pas d'importance et un set ne peut pas stocker plusieurs fois la même valeur.
+```py
+my_empty_set = set()
+my_set = {3, "Hey", 3, 2.5}
+print(my_set)
+# Output : {'Hey', 2.5, 3} # Remarquez que python à supprimé tout seul le doublon (3) et que l'ordre à changé
+
+print(my_set[0])
+# Output : TypeError: 'set' object is not subscriptable
+
+my_set.add("Hello")  # On ajoute "Hello" a ce set
+print(my_set)
+# Output : {'Hey', 2.5, 3, 'Hello'}
+```
