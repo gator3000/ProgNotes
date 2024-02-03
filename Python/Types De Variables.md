@@ -121,7 +121,9 @@ mon_tuple.append(2.5)
 ```
 
 ### Sets
-Les sets sont des types assez pratiques qui se définissent avec des `{}` dont les items sont séparés avec des virgules. L'ordre des valeurs n'a pas d'importance et un set ne peut pas stocker plusieurs fois la même valeur.
+Les sets sont un type qui se définit avec des `{}` dont les items sont séparés avec des virgules. Dans un set, chaque élément doit être **unique** et **immuable**, c’est-à- dire qu'il ne peut pas être modifié. Les éléments n'ont pas d'**ordre** particulier.
+On peut donc stocker des chaînes de caractères, des nombres et des tuples dans un set mais pas de listes ou de dictionnaires !
+Les sets sont utiles pour **contrôler les doublons** et effectuer des opérations sur les ensembles comme les unions, les différences, les intersections, etc.
 ```py
 my_empty_set = set()
 my_set = {3, "Hey", 3, 2.5}
@@ -131,9 +133,13 @@ print(my_set)
 print(my_set[0])
 # Output : TypeError: 'set' object is not subscriptable
 
-my_set.add("Hello")  # On ajoute "Hello" a ce set
+my_set.add("Hello")  # On ajoute "Hello" à ce set
 print(my_set)
 # Output : {'Hey', 2.5, 3, 'Hello'}
+
+my_set.discard("Hey")  # On enlève "Hey" à ce set
+print(my_set)
+# Output : {2.5, 'Hello', 3}
 ```
 
 > [!CAUTION]
@@ -142,28 +148,54 @@ print(my_set)
 Un set c'est en fait l'équivalent python d'un ensemble mathématique :
 
 ```py
-var = {1, 2, 3}
-var_2 = {3, 4, 5}
+a = {1, 2, 3}
+b = {3, 4, 5}
 
-print(var.update(var_2))  # On assemble les deux ensembles
-# Output : {4, 3, 5, 1, 2}  # L'ordre n'a pas d'importance
+print(a | b) # A union B
+# Output : {4, 3, 5, 1, 2}
+
+print(a & b) # A inter B
+# Output : {3}
+
+print(a - b) # différences de A sur B
+# Output : {2, 1}
+
+print(a ^ b) # différences entre A et B
+# Output : {4, 2, 5, 1}
 ```
 
-| Methode | Description |
-| ---- | ---- |
-| `add(valeur_non_iterable)` | Ajoute un élément au set |
-| `clear()` | Supprime tout le set |
-| `difference(un_set)` | Retourne un set qui contient tout les éléments qui ne sont pas dans les deux sets |
-| `difference_update(un_set)` | Removes the items in this set that are also included in another, specified set |
-| `discard(valeur_non_iterable)` | Remove the specified item |
-| `intersection(un_set)` | Returns a set, that is the intersection of two other sets |
-| `intersection_update(un_set)` | Removes the items in this set that are not present in other, specified set(s) |
-| `symmetric_difference(un_set)` | Returns a set with the symmetric differences of two sets |
-| `union(un_set)` | Return a set containing the union of sets |
-> **Pour aller plus loin :**
-> Regarde [[Fonctions]] & [[Classes]]
+### Frozensets
+
+Les frozensets sont exactement pareils que les sets sauf qu'ils ne peuvent pas êtres modifiés.
+```py
+fa = frozenset([1, 2, 3]) # on peut mettre entre parnthèses soit une liste soit un set soit un tuple
+
+print(s)    # frozenset({1, 2, 3})
+print(len(s))   # 3
+print(s.add('bones')) # AttributeError: 'frozenset' object has no attribute 'add'
+```
+
 
 ### Dictionnaires
 
 Les dictionnaire aussi appelés `dicts` sont créés par `{}` ou `dict()`.Ce sont comme des tableau ou une clé correspond à une valeur.
+
+| Keys | Values |
+| ---- | ---- |
+| `"proprio"` | `"Mme Martin"` |
+| `"marque"` | `"BMW"` |
+| `"model"` | `"325 i"` |
+| `"annee"` | `1992` |
+Se traduit par :
+```py
+my_dict = {"proprio": "Mme Martin", "marque": "BMW", "model": "325 i", "annee": 1992}
+
+# On peut aussi écrire, les retours a la ligne ne comptent pas
+my_dict_2 = {
+"proprio": "Mme Martin",
+"marque": "BMW",
+"model": "325 i",
+"annee": 1992
+}
+```
 

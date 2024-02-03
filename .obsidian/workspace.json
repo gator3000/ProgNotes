@@ -15,6 +15,7 @@
               "state": {
                 "file": "Python/Types De Variables.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -148,18 +149,18 @@
   },
   "active": "6ec5f51f24f1608d",
   "lastOpenFiles": [
+    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
+    "Python/Types De Variables.md",
+    "Python/Introduction.md",
+    "Python/Installation.md",
+    "Python/Classes.md",
+    "Python/Fonctions.md",
+    "Python/Conditions.md",
+    "Python/Boucles.md",
     "Python/Summary.md",
     "Python/Variables & calculs.md",
-    "Python/Types De Variables.md",
     "().md",
-    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "|100.md",
-    "Python/Installation.md",
-    "Python/Boucles.md",
-    "Python/Classes.md",
-    "Python/Conditions.md",
-    "Python/Fonctions.md",
-    "Python/Introduction.md",
     "Python/Untitled",
     "Untitled.md",
     "[.md",

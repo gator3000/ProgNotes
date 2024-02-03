@@ -32,7 +32,7 @@ L'environnement python est **riche en librairies**. Vous trouverez toujours des 
 
 Python a été pensé pour créer du **code complexe en peu de lignes.** N'oublions pas qu'un bon chasseur codeur n'est pas celui qui arrive à faire comprendre à sa machine ce qu'il veut faire mais qui fait comprendre aux autres développeurs ce qu'il a voulu faire!
 
-Python est également utilisé dans les milieux scientifiques, par exemple la **bioinformatique**. Des librairies sont disponibles pour ce domaine comme le module **biopython .**
+Python est également utilisé dans les milieux scientifiques, par exemple la bioinformatique. Des librairies sont disponibles pour ce domaine comme le module **biopython .**
 
 Il existe également des bibliothèques facilitant la création de jeux vidéo en 2D (et 3D) exemple: **pyGame .**
 
@@ -53,4 +53,4 @@ Sinon en plus classique, on a « [Graven](https://www.youtube.com/@Gravenilvect
 ### IA
 
 
-Python est également très populaire dans le domaine de l'**IA** en raison de ses bibliothèques de haute qualité et de sa puissance de calcul. Beaucoup de chercheurs et de développeurs utilisent Python pour implémenter et expérimenter avec de nouveaux algorithmes d'apprentissage automatique et de **deep learning**, en particulier grâce aux frameworks tels que **TensorFlow** et **PyTorch**. En utilisant Python, il est possible de développer rapidement des modèles complexes et puissants, ce qui en fait un choix idéal pour les projets d'IA de toutes tailles.
+Python est également très populaire dans le domaine de l'**IA** en raison de ses bibliothèques de haute qualité et de sa puissance de calcul. Beaucoup de chercheurs et de développeurs utilisent Python pour implémenter et expérimenter avec de nouveaux algorithmes d'apprentissage automatique et de **deep learning**, en particulier grâce aux **frameworks** tels que **TensorFlow** et **PyTorch**. En utilisant Python, il est possible de développer rapidement des modèles complexes et puissants, ce qui en fait un choix idéal pour les projets d'IA de toutes tailles.
