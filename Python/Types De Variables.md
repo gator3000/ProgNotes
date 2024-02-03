@@ -62,6 +62,23 @@ print("hello world !" * 3)
 print(str(2.3)*2)
 # Output : 2.32.3
 ```
+On peut transformer une string en liste selon un certain caractère :
+```py
+ma_string = "ma grande phrase bien grande grandie à la grande"
+# on va séparer chaque partie de la chaine au endroits ou le caractere " " se trouve.
+ma_liste_de_mot = ma_string.split(" ")
+print(ma_liste_de_mot)
+# Output : ['ma', 'grande', 'phrase', 'bien', 'grande', 'grandie', 'à', 'la', 'grande']
+
+print(ma_string.split("a"))
+# Output : ['m', ' gr', 'nde phr', 'se biengr', 'nde gr', 'ndie à l', ' gr', 'nde']
+
+ma_string.split("grand")  
+# Output : ['ma ', 'e phrase bien', 'e ', 'ie à la ', 'e']
+```
+
+> [!REMARQUE]
+> Le caractère utilisé n’apparaît donc pas dans les items de la liste !
 
 ### Listes
 Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice mis entre `[0]`. Elles sont définies avec des `[]` autours des valeurs et des virgules entre les items.
@@ -104,6 +121,11 @@ print(mon_test * 3)
 > Vous avez surement remarqué mais `l'indice 0` correspond au premier item et `l'indice 1` correspond lui au deuxième item et non au premier.
 > De manière générale, en programmation on compte à partir de zéro et pas de 1.
 
+Pour joindre des strings dans une liste on utilise `join(list)`, un peu l'inverse de `.split()` :
+```py
+print(" ".join(['ma', 'grande', 'phrase', 'bien', 'grande', 'grandie', 'à', 'la', 'grande']))
+# Output : 'ma grande phrase bien grande grandie à la grande'
+```
 ### Tuples
 Les tuples sont comme des listes mais ils ne peuvent pas être modifiés. Il sont définis avec des `()` et une virgule entre chaque item pour les séparer. Ils gardent leur ordre comme les listes puisque leur indice est basé sur leur position.
 ```py
@@ -201,7 +223,7 @@ my_dict_2 = {
 ```
 Pour récupérer un item d'un dictionnaire on met l'indice entre `["indice"]`.
 ```py
- # On considaire le code ci-dessus
+# On considaire le code ci-dessus
 
 print(my_dict["marque"])
 # Output : "BMW"
@@ -209,4 +231,14 @@ print(my_dict["marque"])
 my_dict["couleur"] = "black"
 print(my_dict)
 # Output : {"proprio": "Mme Martin", "marque": "BMW", "model": "325 i", "annee": 1992, "couleur": "black"}
+```
+On peut récupérer les clés et les valeurs sous forme de liste :
+```py
+# On considaire le code ci-dessus
+
+print(list(my_dict))
+# Output : ['proprio', 'marque', 'model', 'annee', 'couleur']
+
+print(list(my_dict.values()))
+# Output : ['Mme Martin', 'BMW', '325 i', 1992, 'black']
 ```
