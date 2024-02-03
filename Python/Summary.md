@@ -9,18 +9,18 @@ ___
 - ##### 0.2.3 Mac / OS X
 
 
-# I. [*Variables & calculations*](Variables&calculs)
+# I. [*Variables & calculations*](Variables%20&%20calculs.md)
 
-### I.1 Classic variables and exits
+### I.1 [Classic variables and exits](Variables%20&%20calculs#I.1%20Variables%20et%20sorties)
 - ### I.1.0 Parenteshis
 	- ##### I.1.0.1 Print variable
 - ##### I.1.1 Declare a variable
 - ##### I.1.2 Use it
-### I.2 Python operators
+### I.2 [Python operators](Variables%20&%20calculs#I.2%20Les%20Opérateurs)
 - ##### I.2.1 Operators
 - ##### I.2.2 Calculation priorities
 
-# II [*Types of variables*](TypesDeVariables)
+# II [*Types of variables*](Types%20De%20Variables.md)
 
 ### II.1 Numbers
 - ##### II.1.1 Integers

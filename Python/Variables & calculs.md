@@ -12,10 +12,9 @@ Avant tout, tu dois savoir une chose : pour afficher quelque chose, il faut util
 ```py
 print(une_valeur)
 ```
+^printblock
 
-^ee7155
-
-À la place de `une_valeur` tu écriras soit un nombre, soit une chaîne de caractères (string) soit une variable, on y reviendra [[Variables&calculs#Utilisons là maintenant.]].
+À la place de `une_valeur` tu écriras soit un nombre, soit une chaîne de caractères (string) soit une variable, on y reviendra [[Variables & calculs#Utilisons là maintenant.]].
 > [!NOTE]
 > pour écrire un nombre à virgule flottante (décimal) on utilisera le point : 
 > ```py
@@ -46,7 +45,7 @@ ma_variable_1
 maVariable2
 Ma_Variable3
 # Nom invalide
-4iemeVariable
+4ièmeVariable
 ```
 En résumé : 
 1. Pas de caractères spéciaux ou d'accents
@@ -55,8 +54,7 @@ En résumé :
 4. Ecrite en "snake_case"
 5. Plusieurs caractères sauf pour les variables de boucle et de convention mathématiques (ex : `x` et `y` pour des axes sur un repère)
 
-![Description de trois types de mise en forme de nom](https://juniortoexpert.com/wp-content/uploads/naming-convention-snake-case-kebab-case-camel-case.png)
-
+![[naming-convention-snake-case-kebab-case-camel-case.png|500]]
 
 Maintenant qu'on a son nom, il nous faut une valeur.
 Il faut savoir que en python il n'y a pas besoin de spécifier le type de nos variables, seulement de leur affecter une valeur spécifié après un signe `=`.
@@ -70,7 +68,7 @@ ma_variable_3 = 2.069 # float > virgule flotante
 
 ###### Utilisons là maintenant. 
 
-Pour afficher la valeur d'une variable on se réfère à [[#^ee7155]].
+Pour afficher la valeur d'une variable on se réfère à [[#^printblock]].
 Exemple :
 ```py
 ma_variable = "Hello world !"
@@ -79,7 +77,7 @@ print(ma_variable)
 ```
 Ici on définit `ma_variable` à un message et dans la deuxième ligne on récupère la valeur de `ma_variable` et on la donne à l'instruction `print()` qui l'affiche.
 
-### I.1.2 Les Opérateurs :
+# I.2 Les Opérateurs
 
 Dans la vie les nombres on peut les additionner, multiplier... Et bien sur python, on peut aussi !
 1. L'addition : `+`
@@ -142,10 +140,12 @@ Pour des calculs composés il faut connaitre les priorités de calculs de python
 Le reste est exécuté dans l'ordre
 
 ### Exercice 1 :
-Que donne ce programme ? 
+ Que donne ce programme ? 
 ```py
 ma_variable = "50"
 ma_variable_2 = 2
 ma_variable_3 = "5"
-print(ma_variable + (ma_variable_2 / 0.5 * ma_variable_3))
+print(ma_variable + (ma_variable_2 * 2 * ma_variable_3))
 ```
+> [!question]- Reponse
+> Output : `505555`

@@ -1,7 +1,7 @@
 [Retour](Summary)
 ___
 > [!CHECKPOINT]
-> Jusqu’ici on a vu de types de variables simples [[Variables&calculs]].
+> Jusqu’ici on a vu de types de variables simples [[Variables & calculs]].
 Dans ce chapitre on va approfondir ce sujet et découvrir les itérables.
 
 ## Les types de Variables Simples
@@ -9,22 +9,23 @@ Dans ce chapitre on va approfondir ce sujet et découvrir les itérables.
 2. Décimaux
 3. Booléens
 
-
+### Ints
 Commençons par les entiers.
-Ce sont donc des nombres entiers comme en mathématiques. À partir de maintenant, on les appellera les `int`ou `integers`. On peut effectuer tout les calculs des opérateurs présentés plus tôt [[Variables&calculs#I.1.2 Les Opérateurs]].
+Ce sont donc des nombres entiers comme en mathématiques. À partir de maintenant, on les appellera les `int`ou `integers`. On peut effectuer tout les calculs des opérateurs présentés plus tôt [[Variables & calculs#I.1.2 Les Opérateurs]].
 On peut convertir une chaîne de caractères en entier si le cœur t'en dis :
 ```py
 print(int("36")*2)
 # Output : 72
 ```
 
-
-Les décimaux que l'on appellera les `floats` se comportent pareils à l'exception du fait qu'ils peuvent avoir des virgules. On peut aussi effectuer tout les calculs des opérateurs présentés plus tôt [[Variables&calculs#I.1.2 Les Opérateurs]]. Et à partir d'une chaine, on utilise `float()` :
+### Floats
+Les décimaux que l'on appellera les `floats` se comportent pareils à l'exception du fait qu'ils peuvent avoir des virgules. On peut aussi effectuer tout les calculs des opérateurs présentés plus tôt [[Variables & calculs#I.1.2 Les Opérateurs]]. Et à partir d'une chaine, on utilise `float()` :
 ```py
 print(float("2.3")*3)
 # Output : 6.9
 ```
 
+### Bool
 Les booléens ou `bool` ou `boolean` sont un type de variable qui ne peut avoir que deux états `True`("vrai" en anglais) et `False` ("faux" en anglais). Il sera très utile dans un autre chapitre [[Conditions]].
 ```py
 mon_bool = True
@@ -41,6 +42,7 @@ print(mon_bool)
 > [!DEFINITION]
 > "Itérable" signifie qu'on va pouvoir les parcourir par itérations dans des [boucles](Boucles).
 
+### Strings
 On en à déjà beaucoup parlé de ces chaines de caractères qui se nomment `strings`. Pour les définir il faut mettre des guillemets ou des apostrophes ou encore des triple guillemets (pour des chaines sur plusieurs lignes (sinon cela va provoquer une erreur)) Les strings supportent deux opérateurs `*` et `+`. Tout nos types de variables peuvent être convertis en string :
 ```py
 mon_str = """Hello
@@ -61,6 +63,7 @@ print(str(2.3)*2)
 # Output : 2.32.3
 ```
 
+### Listes
 Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice mis entre `[]`. Elles sont définies avec des `[]` autours des valeurs et des virgules entre les items.
 > [!TIP]
 > On peut créer une liste vide avec `ma_liste = list()`. Cette syntaxe set préférable par rapport a deux crochets Selon la [PEP8](https://python.doctor/page-pep-8-bonnes-pratiques-coder-python-apprendre).
@@ -117,6 +120,7 @@ mon_tuple.append(2.5)
 # Output : AttributeError: 'tuple' object has no attribute 'append'
 ```
 
+### Sets
 Les sets sont des types assez pratiques qui se définissent avec des `{}` dont les items sont séparés avec des virgules. L'ordre des valeurs n'a pas d'importance et un set ne peut pas stocker plusieurs fois la même valeur.
 ```py
 my_empty_set = set()
@@ -133,4 +137,33 @@ print(my_set)
 ```
 
 > [!CAUTION]
-> Erreurs != Terminal !!!
+> /!\\ Lorsqu'un output est un erreur le programme s’arrête normalement mais afin de le voir jusqu'à la fin, je les ai ignorés.
+
+Un set c'est en fait l'équivalent python d'un ensemble mathématique :
+
+```py
+var = {1, 2, 3}
+var_2 = {3, 4, 5}
+
+print(var.update(var_2))  # On assemble les deux ensembles
+# Output : {4, 3, 5, 1, 2}  # L'ordre n'a pas d'importance
+```
+
+| Methode | Description |
+| ---- | ---- |
+| `add(valeur_non_iterable)` | Ajoute un élément au set |
+| `clear()` | Supprime tout le set |
+| `difference(un_set)` | Retourne un set qui contient tout les éléments qui ne sont pas dans les deux sets |
+| `difference_update(un_set)` | Removes the items in this set that are also included in another, specified set |
+| `discard(valeur_non_iterable)` | Remove the specified item |
+| `intersection(un_set)` | Returns a set, that is the intersection of two other sets |
+| `intersection_update(un_set)` | Removes the items in this set that are not present in other, specified set(s) |
+| `symmetric_difference(un_set)` | Returns a set with the symmetric differences of two sets |
+| `union(un_set)` | Return a set containing the union of sets |
+> **Pour aller plus loin :**
+> Regarde [[Fonctions]] & [[Classes]]
+
+### Dictionnaires
+
+Les dictionnaire aussi appelés `dicts` sont créés par `{}` ou `dict()`.Ce sont comme des tableau ou une clé correspond à une valeur.
+
