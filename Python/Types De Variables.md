@@ -9,7 +9,7 @@ Dans ce chapitre on va approfondir ce sujet et découvrir les itérables.
 2. Décimaux
 3. Booléens
 
-### Ints
+### Integers
 Commençons par les entiers.
 Ce sont donc des nombres entiers comme en mathématiques. À partir de maintenant, on les appellera les `int`ou `integers`. On peut effectuer tout les calculs des opérateurs présentés plus tôt [[Variables & calculs#I.1.2 Les Opérateurs]].
 On peut convertir une chaîne de caractères en entier si le cœur t'en dis :
@@ -64,7 +64,7 @@ print(str(2.3)*2)
 ```
 
 ### Listes
-Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice mis entre `[]`. Elles sont définies avec des `[]` autours des valeurs et des virgules entre les items.
+Pour stocker des informations dans un certain ordre, on utilisera des listes. Elles contiennent plusieurs valeurs, des `items` de types différent (ou pas) qui peuvent être utilisés grâce à leur indice mis entre `[0]`. Elles sont définies avec des `[]` autours des valeurs et des virgules entre les items.
 > [!TIP]
 > On peut créer une liste vide avec `ma_liste = list()`. Cette syntaxe set préférable par rapport a deux crochets Selon la [PEP8](https://python.doctor/page-pep-8-bonnes-pratiques-coder-python-apprendre).
 
@@ -104,6 +104,7 @@ print(mon_test * 3)
 > Vous avez surement remarqué mais `l'indice 0` correspond au premier item et `l'indice 1` correspond lui au deuxième item et non au premier.
 > De manière générale, en programmation on compte à partir de zéro et pas de 1.
 
+### Tuples
 Les tuples sont comme des listes mais ils ne peuvent pas être modifiés. Il sont définis avec des `()` et une virgule entre chaque item pour les séparer. Ils gardent leur ordre comme les listes puisque leur indice est basé sur leur position.
 ```py
 mon_tuple = ("Hey", 3, True)
@@ -198,4 +199,14 @@ my_dict_2 = {
 "annee": 1992
 }
 ```
+Pour récupérer un item d'un dictionnaire on met l'indice entre `["indice"]`.
+```py
+ # On considaire le code ci-dessus
 
+print(my_dict["marque"])
+# Output : "BMW"
+
+my_dict["couleur"] = "black"
+print(my_dict)
+# Output : {"proprio": "Mme Martin", "marque": "BMW", "model": "325 i", "annee": 1992, "couleur": "black"}
+```

@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b2c426f7b96df43d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Types De Variables.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -147,22 +161,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ec5f51f24f1608d",
+  "active": "b2c426f7b96df43d",
   "lastOpenFiles": [
-    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
+    "Python/Summary.md",
     "Python/Types De Variables.md",
+    "Python/Variables & calculs.md",
+    "Tests.md",
+    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "Python/Introduction.md",
     "Python/Installation.md",
     "Python/Classes.md",
     "Python/Fonctions.md",
     "Python/Conditions.md",
     "Python/Boucles.md",
-    "Python/Summary.md",
-    "Python/Variables & calculs.md",
     "().md",
     "|100.md",
     "Python/Untitled",
-    "Untitled.md",
     "[.md",
     "Introduction.md",
     "Table.md",

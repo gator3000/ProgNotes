@@ -23,9 +23,9 @@ ___
 # II [*Types of variables*](Types%20De%20Variables.md)
 
 ### II.1 Numbers
-- ##### II.1.1 Integers
-- ##### II.1.2 Decimals
-### II.2 Character Strings
+- ##### II.1.1 [Integers](Types%20De%20Variables#Integers)
+- ##### II.1.2 [Decimals](Types%20De%20Variables#Floats)
+### II.2 [Characters Strings](Types%20De%20Variables#Strings)
 - ##### II.2.1 Apostrophes
 - ##### II.2.2 Quotation marks
 - ##### II.2.3 Triple Quotation marks
@@ -36,24 +36,24 @@ ___
 - ##### II.2.6 Concatenation
 
 ### II.3 Lists and tuples
-- ##### II.3.1 Lists
+- ##### II.3.1 [Lists](Types%20De%20Variables#Listes)
 	- II.3.1.1 Declare list
 	- II.3.1.2 Use item
 	- II.3.1.3 Add item
 	- II.3.1.4 Delete item
 	- II.3.1.5 Modify item
 	- II.3.1.6 List arithmetic
-- ##### II.3.2 Tuples
+- ##### II.3.2 [Tuples](Types%20De%20Variables#Tuples)
 	- II.3.2.1 Declare Tuple
 	- II.3.2.2 Use Tuple
 	- II.3.2.3 Variation from lists
 ### II.4 Dictionary and sets
-- ##### II.4.1 Sets
+- ##### II.4.1 [Sets](Types%20De%20Variables#Sets)
 	- II.4.1.1 Declare set
 	- II.4.1.2 Use set
 	- II.4.1.3 Modify set
 	- II.4.1.4 Math
-- ##### II.4.2 Frozensets
+- ##### II.4.2 [Frozensets](Types%20De%20Variables#Frozensets)
 	 - II.4.2.1 Declare frozenset
 	 - II.4.2.2 Variation from simple set
-- ##### II.4.3 Dictionaries
+- ##### II.4.3 [Dictionaries](Types%20De%20Variables#Dictionnaires)
