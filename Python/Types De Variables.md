@@ -42,6 +42,15 @@ print(mon_bool)
 > [!DEFINITION]
 > "Itérable" signifie qu'on va pouvoir les parcourir par itérations dans des [boucles](Boucles).
 
+> [!TIP]
+> Dans tout les itérables **sauf les sets & frozensets** on peut mettre tout les types de valeurs dont des itérables
+> > [!TIP]- Spoiler
+> > > [!TIP]- Spoiler
+> > > > [!TIP]- Spoiler
+> > > > > [!TIP]- Spoiler
+> > > > > > [!TIP]- Spoiler
+> > > > > > Comme dans *"Inception"*
+
 ### Strings
 On en à déjà beaucoup parlé de ces chaines de caractères qui se nomment `strings`. Pour les définir il faut mettre des guillemets ou des apostrophes ou encore des triple guillemets (pour des chaines sur plusieurs lignes (sinon cela va provoquer une erreur)) Les strings supportent deux opérateurs `*` et `+`. Tout nos types de variables peuvent être convertis en string :
 ```py
@@ -201,7 +210,7 @@ print(s.add('bones')) # AttributeError: 'frozenset' object has no attribute 'add
 
 ### Dictionnaires
 
-Les dictionnaire aussi appelés `dicts` sont créés par `{}` ou `dict()`.Ce sont comme des tableau ou une clé correspond à une valeur.
+Les dictionnaire aussi appelés `dicts` sont créés par `{}` ou `dict()`. Ce sont comme des tableau ou une clé correspond à une valeur.
 
 | Keys | Values |
 | ---- | ---- |
@@ -242,3 +251,37 @@ print(list(my_dict))
 print(list(my_dict.values()))
 # Output : ['Mme Martin', 'BMW', '325 i', 1992, 'black']
 ```
+
+### Exercice 2 :
+Modélise les valeurs suivantes dans une variable.
+
+> Un immeuble qui possède une 
+> 1. adresse > (cette adresse a un numéro, une rue et une ville),
+> 2. une couleur
+> 3. un nombre d'étages
+> 4. un nombre de fenêtres
+> 5. une hauteur en mètres
+> 6. et une liste de locataires
+
+Immeuble:
+
+| Caractéristiques | Valeur |
+| ---- | ---- |
+| hauteur | 20.3 |
+| adresse | 32 rue Berlioz |
+| nb étages | 6 |
+| nb fenêtres | 24 |
+| couleur | jaune |
+| locataires | Alice, Bob, <br>Camille, Daniel, Élisa et Fernand |
+> [!question]- Reponse
+> ```py
+> immeuble = {
+> "hauteur": 20.3,
+> "adresse": {"numéro": 32, "rue": "Berlioz", "ville": "Angers"}, 
+> "nb etages": 6,
+> "nb fenetres": 24,
+> "couleur": "yellow",
+> "locataires":  ["Alice", "Bob", "Camille", "Daniel", "Élisa", "Fernand"]
+> }
+> ```
+

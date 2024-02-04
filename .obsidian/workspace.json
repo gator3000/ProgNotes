@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/Types De Variables.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -163,10 +163,10 @@
   },
   "active": "b2c426f7b96df43d",
   "lastOpenFiles": [
-    "Python/Summary.md",
-    "Python/Types De Variables.md",
     "Python/Variables & calculs.md",
     "Tests.md",
+    "Python/Types De Variables.md",
+    "Python/Summary.md",
     "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "Python/Introduction.md",
     "Python/Installation.md",
