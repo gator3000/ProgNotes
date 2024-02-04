@@ -22,9 +22,11 @@ ___
 
 # II [*Types of variables*](Types%20De%20Variables.md)
 
-### II.1 Numbers
+### II.1 Simple Variables
 - ##### II.1.1 [Integers](Types%20De%20Variables#Integers)
 - ##### II.1.2 [Decimals](Types%20De%20Variables#Floats)
+- ##### II.1.3 [Booleans](Types%20De%20Variables#Bool)
+- ##### II.1.4 [None Type](Types%20De%20Variables#None)
 ### II.2 [Characters Strings](Types%20De%20Variables#Strings)
 - ##### II.2.1 Apostrophes
 - ##### II.2.2 Quotation marks
