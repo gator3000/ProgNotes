@@ -51,9 +51,20 @@ print(mon_bool)
 > > > > > > [!TIP]- Spoiler
 > > > > > > Comme dans *"Inception"*
 
+> [!Tip]
+> On peut utiliser l'instruction `len(iterable)` pour compter le nombre d'items dans la valeur entre les parenthèses. Sur les strings, cela compte les nombre de caractères.
 ### Strings
 On en à déjà beaucoup parlé de ces chaines de caractères qui se nomment `strings`. Pour les définir il faut mettre des guillemets ou des apostrophes ou encore des triple guillemets (pour des chaines sur plusieurs lignes (sinon cela va provoquer une erreur)) Les strings supportent deux opérateurs `*` et `+`. Tout nos types de variables peuvent être convertis en string :
 ```py
+ma_string = "HelloWorld!"
+print(ma_string[0]) # On récupère le premier caractère
+# Output : H
+
+print(ma_string[2]) # On récupère le troisième caractère
+# Output : l
+
+# Enfait, une string est une liste de caractères -> Regarde les listes :)
+
 mon_str = """Hello
 World
 !"""
@@ -130,7 +141,7 @@ print(mon_test * 3)
 > Vous avez surement remarqué mais `l'indice 0` correspond au premier item et `l'indice 1` correspond lui au deuxième item et non au premier.
 > De manière générale, en programmation on compte à partir de zéro et pas de 1.
 
-Pour joindre des strings dans une liste on utilise `join(list)`, un peu l'inverse de `.split()` :
+Pour joindre des strings dans une liste on utilise `.join(list)`, un peu l'inverse de `.split()` :
 ```py
 print(" ".join(['ma', 'grande', 'phrase', 'bien', 'grande', 'grandie', 'à', 'la', 'grande']))
 # Output : 'ma grande phrase bien grande grandie à la grande'
