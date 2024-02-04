@@ -59,3 +59,5 @@ ___
 	 - II.4.2.1 Declare frozenset
 	 - II.4.2.2 Variation from simple set
 - ##### II.4.3 [Dictionaries](Types%20De%20Variables#Dictionnaires)
+
+# III [*Conditions*](Conditions)
