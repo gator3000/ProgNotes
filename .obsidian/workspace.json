@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Types De Variables.md",
+                "file": "Python/Conditions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Types De Variables.md",
+                "file": "Python/Conditions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Types De Variables.md",
+                "file": "Python/Conditions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Types De Variables.md"
+                "file": "Python/Conditions.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "b2c426f7b96df43d",
   "lastOpenFiles": [
-    "Python/Summary.md",
     "Python/Types De Variables.md",
+    "Python/Summary.md",
     "Python/Conditions.md",
     "Python/Variables & calculs.md",
     "Tests.md",
