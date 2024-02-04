@@ -8,6 +8,7 @@ Dans ce chapitre on va approfondir ce sujet et découvrir les itérables.
 1. Entiers
 2. Décimaux
 3. Booléens
+4. "None Type"
 
 ### Integers
 Commençons par les entiers.
@@ -33,6 +34,13 @@ mon_bool = False
 print(mon_bool)
 # Output : False
 ```
+
+### None
+La valeur `None` signifie  le vide : ça n'est pas zero ni `False`la valeur n'est simplement pas assignée.
+```py
+ma_var = None
+```
+Cela sert lorsque l'on veut déclarer toutes les variables de notre programme en début de fichier.
 
 ## Les types de Variables Itérables
 1. Chaines
