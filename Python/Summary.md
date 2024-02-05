@@ -61,3 +61,10 @@ ___
 - ##### II.4.3 [Dictionaries](Types%20De%20Variables#Dictionnaires)
 
 # III [*Conditions*](Conditions)
+### III.1 Inputs
+### III.2 Conditions
+### III.3 Blocks of code
+- ###### III.3.0 "Tab" and block
+- ###### III.3.1 If
+- ###### III.3.2 elif
+- ###### III.3.3 else

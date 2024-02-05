@@ -1,7 +1,8 @@
 [Retour](Summary)
 ___
 
-Pour pimenter nos programmes on va utiliser les entrées de programme.
+### Inputs
+Pour pimenter nos programmes on va utiliser les entrées de programme (`input`).
 Grace à cette instruction, on va pouvoir demander à l'utilisateur une valeur :
 ```py
 la_reponse = input("Ma question : ") # input prends la valeur entrée par l'utilisateur
@@ -27,7 +28,6 @@ print(a + b) # Si 2 et 3 entrés | Output : 23
 ```
 
 
-
 ### Conditions
 Les condition sont des valeurs Vraies ou Fausses.
 Grâce à elles on peut faire des choix dans la vie. Par exemple : ***Si** il pleut, **Alors** je prend mon parapluie*.
@@ -50,3 +50,11 @@ user_input = input("Ecrivez cette lettre > a : ")
 ma_condition = user_input == "a"
 print(ma_condition)
 ```
+
+
+### Bloc de code ?
+
+En python, lorsque que l'on regroupe des instructions après certains mots clés, on fait un bloc de code. 
+
+![[th.jpeg|300]]
+On peut les impriquer ces bloc de code et tout ça c'est grac au indentations : la touche tab de ton clavier : ![[keyboard.jpeg]]
