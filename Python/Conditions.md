@@ -112,5 +112,46 @@ elif condition_3:
 else:
 	action_par_defaut()
 ```
+
 > [!CAUTION]
 > Les conditions sont évaluées une par une. Si une d'elle est vérifié, donc égale à `True`, les conditions suivantes ne seront pas évaluées et le programme va "sauter" à la fin du bloc.
+
+### Exercice 3 :
+Crée un magasin virtuel. Lorsque l'on arrive dans le programme on choisi un budget puis un article à acheter. Si le budget n'est pas assez élevé, le programme s'arrête. Sinon le programme annonce que la transaction a réussi !
+
+**Les articles :**
+- Plante en pot : 7,50€
+- Draps : 39,99 €
+- Cookies : 2,50 €
+- Calculatrice : 20,00 €
+- Peluche : 11,50 €
+- Sandwich au saumon : 3,21 €
+
+> [!QUESTION]- Reponse
+> ```py
+> articles = {
+> "Plante en pot": 7.50,
+> "Draps": 39.99,
+> "Cookies": 2.5,
+> "Calculatrice": 20.0,
+> "Peluche": 11.5,
+> "Sandwich au saumon": 3.21
+> }
+> budget = float(input("Entrez votre budget : "))
+> article = input("""
+> Chosisez l'article qui vous plait :
+> Plante en pot
+> Draps
+> Cookies
+> Calculatrice
+> Peluche
+> Sandwich au saumon
+> >>> """)
+> if articles[article] <= budget:
+> 	print("Transaction effectuée !")
+> 	print("Il vous reste {budget - articles[article]} €")  # Facultatif
+> else:
+> 	print("Transaction annulée !")
+> 	print("Il vous manque {articles[article] - budget} €")  # Facultatif
+> ```
+
