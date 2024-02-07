@@ -50,9 +50,10 @@ Ma_Variable3
 En résumé : 
 1. Pas de caractères spéciaux ou d'accents
 2. Pas de chiffres au début
-3. Pas de majuscules
+3. Pas de majuscules ou du moins pas au début
 4. Ecrite en "snake_case"
 5. Plusieurs caractères sauf pour les variables de boucle et de convention mathématiques (ex : `x` et `y` pour des axes sur un repère)
+6. Surtout, elles ne doivent pas faire partie de cette liste de mot réservés par python pour éviter les confusions : `and as assert break class continue def del elif else except False finally for from global if import in is lambda None not or pass raise return True try while with yield`
 
 ![[naming-convention-snake-case-kebab-case-camel-case.png|500]]
 

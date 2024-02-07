@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Conditions.md",
+                "file": "Python/Variables & calculs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Conditions.md",
+                "file": "Python/Variables & calculs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Conditions.md",
+                "file": "Python/Variables & calculs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Conditions.md"
+                "file": "Python/Variables & calculs.md"
               }
             }
           }
@@ -149,15 +149,15 @@
   },
   "active": "6ec5f51f24f1608d",
   "lastOpenFiles": [
-    "Python/th.jpeg",
+    "Python/Types De Variables.md",
     "Python/Conditions.md",
     "Python/keyboard.jpeg",
-    "Python/Variables & calculs.md",
-    "Python/Types De Variables.md",
+    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "Python/Summary.md",
+    "Python/th.jpeg",
+    "Python/Variables & calculs.md",
     "Python/Classes.md",
     "Tests.md",
-    "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "Python/Introduction.md",
     "Python/Installation.md",
     "Python/Fonctions.md",

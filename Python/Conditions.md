@@ -57,4 +57,60 @@ print(ma_condition)
 En python, lorsque que l'on regroupe des instructions après certains mots clés, on fait un bloc de code. 
 
 ![[th.jpeg|300]]
-On peut les impriquer ces bloc de code et tout ça c'est grac au indentations : la touche tab de ton clavier : ![[keyboard.jpeg]]
+On peut les imbriquer ces bloc de code et tout ça c'est grâce au indentations : la touche tab de ton clavier :
+![[keyboard.jpeg]]
+Cela permet de les regrouper. Les tabs font en général 4 espaces : `    ` mais peuvent en faire autant que tu veux. Ce qui compte c'est que ces espaces doivent être de la même longueur tout du long d'un fichier.
+
+### If
+Pour traduire un **si** de la vraie vie on utilise donc le mot clé `if` puis une condition et un `:` à la fin de la ligne. Le bloc de code sera exécuté seulement si la condition est égale à `True`.
+```py
+question = input("Executer cette  action ? [yes/no] : ")
+if question == "yes":
+	print("Action effectuée !")
+```
+Ici, si l'utilisateur répond `yes`, le programme répond `Action effectuée !`. Si l'utilisateur répond autre chose, il ne se passe rien d'autre.
+
+### Else
+Littéralement traduit de l'anglais par "Sinon" on l'utilise de cette manière, après un bloc de code `if`. Son bloc est exécuté si la condition du dernier `if` n'a pas été remplie.
+```py
+question = input("Executer cette  action ? [yes/no] : ")
+​if question == "yes":
+	print("Action effectuée !")
+else :
+	print("Action annulée !")
+```
+
+### Elif
+Un `elif` est la combinaison d'un `if` imbriqué dans un `else`.
+Au lieu d'écrire un `else` puis un `if` :
+```py
+question = input("Executer cette  action ? [yes/no] : ")
+​if question == "yes":
+	print("Action effectuée !")
+​else:
+	if question == "no":
+		print("Action annulée !")
+```
+On écrira :
+```py
+question = input("Executer cette  action ? [yes/no] : ")
+​if question == "yes":
+	print("Action effectuée !")
+​elif question == "no":
+	print("Action annulée !")
+```
+
+### Combinaison
+Pour combiner ces 3 mots clés on l'écris dans un certain ordre sous peine d'erreurs :
+```py
+if condition_1:
+	action_1()
+elif condition_2:
+	action_2()
+elif condition_3:
+	action_3()
+else:
+	action_par_defaut()
+```
+> [!CAUTION]
+> Les conditions sont évaluées une par une. Si une d'elle est vérifié, donc égale à `True`, les conditions suivantes ne seront pas évaluées et le programme va "sauter" à la fin du bloc.
