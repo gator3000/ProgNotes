@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Boucles.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Boucles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Summary.md",
+                "file": "Python/Boucles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Summary.md"
+                "file": "Python/Boucles.md"
               }
             }
           }
@@ -149,19 +149,19 @@
   },
   "active": "6ec5f51f24f1608d",
   "lastOpenFiles": [
+    "Python/Classes.md",
     "Python/Conditions.md",
+    "Python/Boucles.md",
     "Python/Summary.md",
+    "Python/Fonctions.md",
     "Python/Variables & calculs.md",
     "Python/Types De Variables.md",
     "Python/keyboard.jpeg",
     "Python/naming-convention-snake-case-kebab-case-camel-case.png",
     "Python/th.jpeg",
-    "Python/Classes.md",
     "Tests.md",
     "Python/Introduction.md",
     "Python/Installation.md",
-    "Python/Fonctions.md",
-    "Python/Boucles.md",
     "().md",
     "|100.md",
     "Python/Untitled",

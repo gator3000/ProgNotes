@@ -68,3 +68,7 @@ ___
 - ###### III.3.1 If
 - ###### III.3.2 elif
 - ###### III.3.3 else
+
+# IV [Loops](Boucles)
+
+# V [Functions](Fonctions)
