@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Boucles.md",
-                "mode": "source",
+                "file": "Python/Summary.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Boucles.md",
+                "file": "Python/Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Boucles.md",
+                "file": "Python/Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Boucles.md"
+                "file": "Python/Summary.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   },
   "active": "6ec5f51f24f1608d",
   "lastOpenFiles": [
-    "Python/Classes.md",
-    "Python/Conditions.md",
-    "Python/Boucles.md",
+    "Python/Installation.md",
     "Python/Summary.md",
     "Python/Fonctions.md",
+    "Python/Boucles.md",
+    "Python/Classes.md",
+    "Python/Conditions.md",
     "Python/Variables & calculs.md",
     "Python/Types De Variables.md",
     "Python/keyboard.jpeg",
@@ -161,7 +162,6 @@
     "Python/th.jpeg",
     "Tests.md",
     "Python/Introduction.md",
-    "Python/Installation.md",
     "().md",
     "|100.md",
     "Python/Untitled",
