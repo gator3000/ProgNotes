@@ -48,7 +48,7 @@ Cela sert lorsque l'on veut déclarer toutes les variables de notre programme en
 3. Sets et Dictionnaire
 
 > [!DEFINITION]
-> "Itérable" signifie qu'on va pouvoir les parcourir par itérations dans des [boucles](Boucles).
+> "Itérable" signifie qu'on va pouvoir les parcourir par itérations dans des [boucles](Boucles.md).
 
 > [!TIP]
 > Dans tout les itérables **sauf les sets & frozensets** on peut mettre tout les types de valeurs dont des itérables

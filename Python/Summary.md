@@ -11,12 +11,12 @@ ___
 
 # I. [*Variables & calculations*](Variables%20&%20calculs.md)
 
-### I.1 [Classic variables and exits](Variables%20&%20calculs#I.1%20Variables%20et%20sorties)
+### I.1 [Classic variables and exits](Variables%20&%20calculs.md#I.1%20Variables%20et%20sorties)
 - ### I.1.0 Parenteshis
 	- ##### I.1.0.1 Print variable
 - ##### I.1.1 Declare a variable
 - ##### I.1.2 Use it
-### I.2 [Python operators](Variables%20&%20calculs#I.2%20Les%20Opérateurs)
+### I.2 [Python operators](Variables%20&%20calculs.md#I.2%20Les%20Opérateurs)
 - ##### I.2.1 Operators
 - ##### I.2.2 Calculation priorities
 
@@ -69,6 +69,6 @@ ___
 - ###### III.3.2 elif
 - ###### III.3.3 else
 
-# IV [Loops](Boucles)
+# IV [Loops](Boucles.md)
 
 # V [Functions](Fonctions)
