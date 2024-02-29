@@ -31,6 +31,8 @@ while cmd != "exit":
 		print("La prise de commande est terminée !")
 ```
 
+Cela me donne l'occasion de donner deux autres mot clés des boucles : `break` et `continue`.
+Le premier est utilisé pour sortir d'une boucle même si la condition n'est pas réalisée. On aurait donc pu utiliser ce mot clé pour sortir de la boucle après la ligne `print("La prise de commande est terminée !")`
 
 ### For
 Le deuxième type de boucle, `for`, plus poussé, sert soit à prendre chaque itérations d'un itérable par exemple une liste :
@@ -42,3 +44,26 @@ for e in list:
 # World
 # !
 ```
+Ici, on affiche les items de la liste un par un. La variable `e` est utilisée par convention, pour "element".
+
+Pour répéter un action un certain nombre de fois on utilise la fonction génératrice `range()`.
+Cette fonction est utilisable de trois manières différentes:
+##### Manière 1
+```py
+print(list(range(5)))
+# Output : [0, 1, 2, 3, 4]
+```
+On part de `0` inclus et on arrive à l'argument (ici `5`) non-inclus.
+##### Manière 2
+```py
+print(list(range(1, 6)))
+# Output : [1, 2, 3, 4, 5]
+```
+On part du premier argument (ici `1`) inclus et on arrive au deuxième argument (ici `6`) non-inclus.
+##### Manière 3
+```py
+print(list(range(1, 6, 2)))
+# Output : [1, 3, 5]
+```
+On part du premier argument (ici `1`) inclus et on arrive au deuxième argument (ici `6`) non-inclus. On avance avec un pas de `2` ici (troisième argument).
+
